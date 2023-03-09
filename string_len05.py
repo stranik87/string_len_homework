@@ -7,4 +7,8 @@ def main(s1,s2):
     Returns:
         total length of strings
     """
-    return
+    x = s1 + s2
+    return len(x)
+
+
+print(main("str" , "or"))
