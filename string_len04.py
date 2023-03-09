@@ -6,4 +6,8 @@ def main(s):
     Returns:
         string
     """
-    return
+    x = "*" * len(s)
+    return x
+
+
+print(main("str"))
