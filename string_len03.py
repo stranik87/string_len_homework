@@ -8,7 +8,9 @@ def main(a,b):
         True or False
     """
     if len(a) == len(b):
-        True
+        return True
     else:
-        False
+        return False
     return a,b
+
+print(main("code", "exam"))
