@@ -7,8 +7,9 @@ def main(a):
         True or False
     """
     if len(a)%2 == 0:
-         True
+        return True
     else:
-         False
+        return False
     return a
 
+print(main("coder"))
